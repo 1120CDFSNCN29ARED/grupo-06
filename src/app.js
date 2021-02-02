@@ -9,6 +9,14 @@ app.get('/', (req, res) => {
      res.sendFile(path.resolve(__dirname, "../views/index.html"))
 })
 
+app.get('/login', (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../views/login.html"))
+})
+
+app.get('/singup', (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../views/signup.html"))
+})
+
 
 app.listen(8080, () => {
     console.log('Server Running')
