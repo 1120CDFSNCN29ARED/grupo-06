@@ -1,6 +1,6 @@
 # grupo-06
 
-# La + Planta online green store #
+# Plus Plant online green store #
 
 ## Products ##
 
